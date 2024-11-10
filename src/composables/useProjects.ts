@@ -23,7 +23,7 @@ export const useProject = () => {
             id: uuid4(),
             name: 'Portafolio',
             image: portfolio,
-            urlDeploy: 'https://myFirstPortFolioMoisesGuerrer.netlify.app/netlify.app',
+            urlDeploy: 'https://myFirstPortFolioMoisesGuerrer.netlify.app/',
             urlCode: 'https://github.com/MoyGuerrero/myFirstPortFolio',
             skill: [
                 { id: uuid4(), task: 'VueJs 3' },
