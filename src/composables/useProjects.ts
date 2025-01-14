@@ -69,6 +69,7 @@ export const useProject = () => {
         { id: uuid4(), task: 'JWT' },
         { id: uuid4(), task: 'Interfaces' },
         { id: uuid4(), task: 'CORS' },
+        { id: uuid4(), task: 'Dapper' },
       ]
     },
   ]);
