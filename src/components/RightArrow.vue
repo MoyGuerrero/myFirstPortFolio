@@ -1,0 +1,10 @@
+<template>
+  <svg data-slot="icon" fill="none" class="text-sm w-10 h-10 text-gray-500" stroke-width="1.5" stroke="currentColor"
+    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"></path>
+  </svg>
+</template>
+
+<script setup lang="ts">
+
+</script>

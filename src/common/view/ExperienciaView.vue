@@ -4,11 +4,9 @@
       <h2 class="font-bold text-3xl pl-10">Experiencia Laboral</h2>
     </div>
     <div style="overflow-y: auto; height: 600px" class="mb-2">
-      <div
-        v-for="(job, index) in jobs"
+      <div v-for="(job, index) in jobs" :key=job.id
         class="flex flex-col justify-between h-auto mt-10 p-3 border border-gray-500 rounded shadow-2xl gap-10"
-        :class="[(index + 1) % 2 == 0 ? 'md:flex-row' : 'md:flex-row-reverse']"
-      >
+        :class="[(index + 1) % 2 == 0 ? 'md:flex-row' : 'md:flex-row-reverse']">
         <div class="container">
           <h3 class="text-center text-lg font-semibold">{{ job.empresa }}</h3>
           <div class="text-center flex mx-auto justify-center gap-3">
